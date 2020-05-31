@@ -1,15 +1,13 @@
-#include<iostream>
-#include<set>
+#include<bits/stdc++.h> 
+/* it includes all the header file at the same time, 
+doesn't affect the time complexity of the algorihtm but increases the file size. 
+for coding practice its better to use it and for deployment of the project, include each header file individually */
 using namespace std;
-template<typename T>
-    struct sortdescen{
-    	bool operator() ( T lhs,T rhs){
-    		return(lhs>rhs);
-		}
-	};
-	void display(set<int> s){
+	void display(set<int> s)
+{
 		set <int> :: iterator i= s.begin();
-	while(i!=s.end()){
+	while(i!=s.end())
+	{
 		cout<<" "<<*i<<endl;
 		i++;
 	}
@@ -19,12 +17,15 @@ int main(){
 	set<int> s1{1,2,3,4,1};
 	cout<<"printing elements of set 1"<<endl;
 	display(s1);
-//	set <int> :: iterator i= s1.begin();
-//	while(i!=s1.end()){
-//		cout<<" "<<*i<<endl;
-//		i++;
-//	}
-     set<int , sortdescen<int>> s2{5,8,3,2};
+/* 
+set <int> :: iterator i= s1.begin();
+	while(i!=s1.end()){
+		cout<<" "<<*i<<endl;
+		i++;
+	}
+	also u can iterate by for loop : use similar fashion for iteration on each data structure
+*/
+     set<int> s2{5,8,3,2}; //sort descen is used for sort elements in descending order
      cout<<"printing elements of set 2"<<endl;
 	 set <int> :: iterator i2= s2.begin();
 	while(i2!=s2.end()){
