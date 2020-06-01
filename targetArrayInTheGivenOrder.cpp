@@ -3,8 +3,8 @@
 * Date : May 2020
 * Compiler : g++ 4.9.2
 * Flags : -std=c++14
-* Time complexity :O(n^2)
-* Title : smaller number than current
+* Time complexity :O(n)
+* Title : target array in the given order
 */
 class Solution {
 public:
