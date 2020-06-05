@@ -4,7 +4,8 @@
 * Compiler : g++ 4.9.2
 * Flags : -std=c++14
 * Time complexity :O(n^2)
-* Title : maximum-product-of-two-elements-in-an-array
+* Title : smaller number than current
+*/
 */
 
 class Solution {
