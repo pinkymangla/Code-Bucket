@@ -6,7 +6,7 @@
 * Time complexity :O(n^2)
 * Title : smaller number than current
 */
-*/
+
 
 class Solution {
 public:
