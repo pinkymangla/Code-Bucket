@@ -19,8 +19,7 @@ bool py_triplet(int a[],int n){
 	  }
  	 
  }
- 4 5 6 10 12
- 16 25 36 100 144
+
  
 return false;
 }
